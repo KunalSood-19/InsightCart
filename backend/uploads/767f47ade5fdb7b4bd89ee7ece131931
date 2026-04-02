@@ -1,0 +1,11 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+1,CA-2024-001,01-01-2024,03-01-2024,Second Class,C001,John Doe,Consumer,India,Delhi,Delhi,110001,North,P001,Furniture,Chair,Office Chair,5000,2,0.1,800
+2,CA-2024-002,02-01-2024,05-01-2024,Standard Class,C002,Amit Sharma,Corporate,India,Mumbai,Maharashtra,400001,West,P002,Technology,Phone,Smartphone,15000,1,0.05,3000
+3,CA-2024-003,03-01-2024,06-01-2024,First Class,C003,Riya Singh,Home Office,India,Chandigarh,Punjab,160001,North,P003,Office Supplies,Paper,A4 Paper Pack,1200,5,0,300
+4,CA-2024-004,04-01-2024,07-01-2024,Second Class,C004,Rahul Kumar,Consumer,India,Bangalore,Karnataka,560001,South,P004,Technology,Laptop,HP Laptop,55000,1,0.1,7000
+5,CA-2024-005,05-01-2024,08-01-2024,Standard Class,C005,Sneha Verma,Corporate,India,Kolkata,West Bengal,700001,East,P005,Furniture,Table,Wooden Table,8000,1,0.15,1200
+6,CA-2024-006,06-01-2024,09-01-2024,First Class,C006,Arjun Patel,Consumer,India,Ahmedabad,Gujarat,380001,West,P006,Office Supplies,Pen,Blue Pens Pack,500,10,0,150
+7,CA-2024-007,07-01-2024,10-01-2024,Second Class,C007,Pooja Mehta,Home Office,India,Jaipur,Rajasthan,302001,North,P007,Technology,Tablet,Samsung Tablet,20000,1,0.05,2500
+8,CA-2024-008,08-01-2024,11-01-2024,Standard Class,C008,Karan Singh,Consumer,India,Lucknow,UP,226001,North,P008,Furniture,Sofa,3-Seater Sofa,30000,1,0.2,4000
+9,CA-2024-009,09-01-2024,12-01-2024,First Class,C009,Neha Gupta,Corporate,India,Hyderabad,Telangana,500001,South,P009,Office Supplies,Notebook,Spiral Notebook,800,4,0,200
+10,CA-2024-010,10-01-2024,13-01-2024,Second Class,C010,Vikram Joshi,Consumer,India,Pune,Maharashtra,411001,West,P010,Technology,Headphones,Wireless Headphones,3000,2,0.1,600

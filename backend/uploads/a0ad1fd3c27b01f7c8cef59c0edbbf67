@@ -1,0 +1,6 @@
+Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+1,CA-2023-1001,01/01/2023,03/01/2023,Second Class,C001,John Doe,Consumer,India,Delhi,Delhi,110001,North,P001,Technology,Phones,iPhone 13,80000,1,0,15000
+2,CA-2023-1002,02/01/2023,05/01/2023,Standard Class,C002,Amit Sharma,Corporate,India,Mumbai,Maharashtra,400001,West,P002,Furniture,Chairs,Office Chair,5000,2,0.1,800
+3,CA-2023-1003,03/01/2023,06/01/2023,First Class,C003,Riya Singh,Home Office,India,Bangalore,Karnataka,560001,South,P003,Office Supplies,Paper,A4 Sheets,500,5,0,100
+4,CA-2023-1004,04/01/2023,07/01/2023,Second Class,C004,Rahul Verma,Consumer,India,Kolkata,West Bengal,700001,East,P004,Technology,Accessories,Wireless Mouse,1200,3,0.05,200
+5,CA-2023-1005,05/01/2023,08/01/2023,Standard Class,C005,Neha Gupta,Corporate,India,Chennai,Tamil Nadu,600001,South,P005,Furniture,Tables,Study Table,7000,1,0.2,500

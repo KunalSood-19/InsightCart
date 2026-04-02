@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📊 Dashboard</h1>
+
+<!-- Upload -->
+<div class="upload-box">
+  <input type="file" id="fileInput">
+  <button onclick="uploadFile()">Upload CSV</button>
+</div>
+
+<!-- Data -->
+<h2>Total Sales: <span id="totalSales">--</span></h2>
+
+<canvas id="barChart"></canvas>
+
+<script src="script.js"></script>
+<script>
+  loadDashboard();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="navbar">
+  <h2><i>InsightCart</i></h2>
+
+  <div class="nav-right">
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload</button>
+  </div>
+</div>
+
+<div class="main">
+
+  <div id="dashboardSection">
+
+    <!-- MESSAGE -->
+    <p id="noDataMsg" style="display:none; text-align:center; font-size:18px; margin:20px;">
+      ⚠️ No data uploaded. Please upload a file to see analysis.
+    </p>
+
+    <!-- KPI -->
+    <div class="cards" id="cardsContainer">
+      <div class="card">
+        <h4>Total Sales</h4>
+        <p id="totalSales"></p>
+      </div>
+
+      <div class="card">
+        <h4>Total Profit</h4>
+        <p id="totalProfit"></p>
+      </div>
+
+      <div class="card">
+        <h4>Orders</h4>
+        <p id="totalOrders"></p>
+      </div>
+    </div>
+
+    <!-- CHARTS -->
+    <div class="grid" id="chartsContainer">
+
+      <div class="chart-box">
+        <h3>Category Sales</h3>
+        <canvas id="barChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <h3>Category Distribution</h3>
+        <canvas id="pieChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <h3>Profit Ratio</h3>
+        <canvas id="doughnutChart"></canvas>
+      </div>
+
+      <div class="chart-box">
+        <h3>Sales Trend</h3>
+        <canvas id="lineChart"></canvas>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
